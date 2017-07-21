@@ -8,6 +8,8 @@ public class Data {
 	private String name;
 	private int age;
 	
+	private String masterAddress;
+	
 	public Data(){
 		
 	}
@@ -28,9 +30,17 @@ public class Data {
 		this.age = age;
 	}
 
+	public String getMasterAddress() {
+		return masterAddress;
+	}
+
+	public void setMasterAddress(String masterAddress) {
+		this.masterAddress = masterAddress;
+	}
+
 	@Override
 	public String toString() {
-		return "Data [name=" + name + ", age=" + age + "]";
+		return "Data [name=" + name + ", age=" + age + ", masterAddress=" + masterAddress + "]";
 	}
 	
 }
