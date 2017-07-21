@@ -9,6 +9,8 @@ public class Data {
 	private int age;
 	private String hotfix1;
 	private String masterAddress;
+	private String hotfix;
+	private String iss53;
 	
 	public Data(){
 		
@@ -45,11 +47,19 @@ public class Data {
 	public void setHotfix1(String hotfix1) {
 		this.hotfix1 = hotfix1;
 	}
+	public String getIss53() {
+		return iss53;
+	}
+
+	public void setIss53(String iss53) {
+		this.iss53 = iss53;
+	}
 
 	@Override
 	public String toString() {
 		return "Data [name=" + name + ", age=" + age + ", hotfix1=" + hotfix1 + ", masterAddress=" + masterAddress
-				+ "]";
+				+ ", hotfix=" + hotfix + ", iss53=" + iss53 + "]";
 	}
+
 	
 }
