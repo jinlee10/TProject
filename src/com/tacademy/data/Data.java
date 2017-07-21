@@ -9,6 +9,7 @@ public class Data {
 	private int age;
 	
 	private String masterAddress;
+	private String hotfix;
 	
 	public Data(){
 		
@@ -36,6 +37,14 @@ public class Data {
 
 	public void setMasterAddress(String masterAddress) {
 		this.masterAddress = masterAddress;
+	}
+	
+	public String getHotfix() {
+		return hotfix;
+	}
+
+	public void setHotfix(String hotfix) {
+		this.hotfix = hotfix;
 	}
 
 	@Override
