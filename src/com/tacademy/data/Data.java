@@ -11,8 +11,6 @@ public class Data {
 	private String masterAddress;
 	private String hotfix;
 	
-	private String issue53;
-	
 	public Data(){
 		
 	}
@@ -47,20 +45,6 @@ public class Data {
 
 	public void setHotfix(String hotfix) {
 		this.hotfix = hotfix;
-	}
-
-	public String getIssue53() {
-		return issue53;
-	}
-
-	public void setIssue53(String issue53) {
-		this.issue53 = issue53;
-	}
-
-	@Override
-	public String toString() {
-		return "Data [name=" + name + ", age=" + age + ", masterAddress=" + masterAddress + ", "
-				+ "issue53=" + issue53 + "]";
 	}
 	
 }
